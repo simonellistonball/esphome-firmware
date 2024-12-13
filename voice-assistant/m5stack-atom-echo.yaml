@@ -29,7 +29,8 @@ update:
     source: https://firmware.esphome.io/voice-assistant/m5stack-atom-echo/manifest.json
 
 http_request:
-
+  verify_ssl: false
+  
 dashboard_import:
   package_import_url: github://esphome/firmware/voice-assistant/m5stack-atom-echo.adopted.yaml@main
 
